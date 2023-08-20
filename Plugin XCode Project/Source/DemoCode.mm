@@ -4,7 +4,7 @@
 @implementation DemoCode
 
 - (void)UseDemo {
-    NSUnityLog("Hello World");
+    NSUnityLog(@"Hello World");
 }
 
 @end

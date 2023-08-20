@@ -5,5 +5,5 @@ typedef void (*UnityLogCallback)(const char* callback);
 extern "C"
 {
     void NSUnityLogCallback(UnityLogCallback callback);
-    void NSUnityLog(const char* log);
+    void NSUnityLog(NSString* log);
 }

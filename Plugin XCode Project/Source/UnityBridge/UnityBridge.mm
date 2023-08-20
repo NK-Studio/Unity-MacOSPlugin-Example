@@ -6,8 +6,8 @@ void NSUnityLogCallback(UnityLogCallback callback) {
     logCallback = callback;
 }
 
-void NSUnityLog(const char* log){
+void NSUnityLog(NSString* log){
     if(logCallback != NULL){
-        logCallback(log);
+        logCallback([log UTF8String]);
     }
 }
