@@ -1,3 +1,4 @@
+#if UNITY_STANDALONE_OSX
 using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
@@ -21,3 +22,4 @@ namespace NKStudio
         }
     }
 }
+#endif
