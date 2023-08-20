@@ -4,7 +4,7 @@ using UnityEditor;
 
 public class Restart : Editor
 {
-    [MenuItem("Assets/Restart", false, 40)]
+    [MenuItem("Assets/Restart Project", false, 40)]
     private static void ReStart()
     {
         RestartEditorAndRecompileScripts();
