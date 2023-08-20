@@ -1,1 +1,1 @@
-# Unity-MacOSPlugin-Example
+# Unity-Plugin-Example
